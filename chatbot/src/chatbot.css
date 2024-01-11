@@ -1,0 +1,43 @@
+/* src/Chatbot.css */
+div {
+    box-sizing: border-box;
+  }
+  
+  div > div {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .user {
+    text-align: right;
+    color: #007bff;
+  }
+  
+  .AI {
+    text-align: left;
+    color: #28a745;
+  }
+  
+  input {
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #007bff;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  
